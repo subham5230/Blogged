@@ -9,14 +9,14 @@ body{
 
 h1, h2, h3, h4, h5{
   font-weight: 700;
-
-}
-
-.headersection a, .heropost-badges a{
   color: #66fcf1;
 }
 
-.headersection a:hover, .heropost-badges a:hover{
+a{
+  color: #66fcf1;
+}
+
+a:hover{
   color: white;
 }
 
@@ -74,17 +74,46 @@ h1, h2, h3, h4, h5{
   border: 2px solid #66fcf1;
 }
 
-.heropost-content h2, .heropost-content h3{
-  color: #66fcf1;
-}
  .heropost-content p{
    color: white;
  }
 
 .main-img{
-  opacity: 0.8;
+  filter: grayscale(30%) brightness(0.8);
 }
 
 .main-img:hover{
-  opacity: 1;
+  filter: none;
+}
+
+/* MAIN BLOG */
+
+.blog-posts{
+  background-color: #0b0c10;
+  color: #c5c6c7;
+}
+
+.blog-post{
+  background-color: #1f2833;
+}
+
+.blog-post p{
+  font-size: 0.9rem;
+}
+
+.blog-post .col-sm-9{
+  border-left: 3px solid #66fcf1;
+}
+
+.badge>a{
+  padding: 0.3rem;
+  background-color: #66fcf1;
+  color: black;
+}
+
+/* ASIDE SECTION */
+
+
+.social-links{
+  border: 2px solid #66fcf1;
 }
