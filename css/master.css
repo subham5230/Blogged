@@ -12,13 +12,14 @@ h1, h2, h3, h4, h5{
 
 }
 
-a{
+.headersection a, .heropost-badges a{
   color: #66fcf1;
 }
 
-a:hover{
+.headersection a:hover, .heropost-badges a:hover{
   color: white;
 }
+
 .navbar{
   background-color: #0b0c10;
 
@@ -60,7 +61,30 @@ a:hover{
   font-size: 0.8rem;
 }
 
+.hero-post{
+  position: relative;
+}
+
 .heropost-content{
   position: absolute;
-  bottom: 40px;
+  bottom: 20px;
+}
+
+.heropost-content img{
+  border: 2px solid #66fcf1;
+}
+
+.heropost-content h2, .heropost-content h3{
+  color: #66fcf1;
+}
+ .heropost-content p{
+   color: white;
+ }
+
+.main-img{
+  opacity: 0.8;
+}
+
+.main-img:hover{
+  opacity: 1;
 }
