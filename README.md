@@ -1,2 +1,2 @@
 # Blogged
-A blog website homepage using bootstrap
+A "Dark-mode" Blog Website homepage using bootstrap
