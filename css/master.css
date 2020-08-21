@@ -1,3 +1,66 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .navbar-brand{
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5{
+  font-weight: 700;
+
+}
+
+a{
+  color: #66fcf1;
+}
+
+a:hover{
+  color: white;
+}
+.navbar{
+  background-color: #0b0c10;
+
+}
+
+.fas{
+  color: #66fcf1;
+}
+
+.form-control{
+  background-color: #0b0c10;
+}
+
+.btn-main{
+  background-color: #0b0c10;
+  border-color: #66fcf1;
+  color: #66fcf1;
+}
+.btn-main:hover{
+  background-color: #66fcf1;
+  color: black;
+}
+
+
+/* HERO */
+
+.hero{
+  background-color: #1f2833;
+}
+
+.heropost-badges{
+  position: absolute;
+  display: block;
+  top: 20px;
+  right: 20px;
+  background-color: #1f2833;
+  opacity: 0.6;
+  padding: 4px;
+  font-size: 0.8rem;
+}
+
+.heropost-content{
+  position: absolute;
+  bottom: 40px;
 }
