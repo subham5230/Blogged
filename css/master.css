@@ -1,56 +1,59 @@
-body{
+body {
   font-family: 'Montserrat', sans-serif;
+  color: #c5c6c7;
 }
 
-.navbar-brand{
+.gg {
+  color: white;
+}
+
+.navbar-brand {
   font-size: 2rem;
   font-weight: 700;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5 {
   font-weight: 700;
   color: #66fcf1;
 }
 
-a{
+a {
   color: #66fcf1;
 }
 
-a:hover{
+a:hover {
   color: white;
 }
 
-.navbar{
+.navbar {
   background-color: #0b0c10;
-
 }
 
-.fas{
+.fas {
   color: #66fcf1;
 }
 
-.form-control{
+.form-control {
   background-color: #0b0c10;
 }
 
-.btn-main{
+.btn {
   background-color: #0b0c10;
   border-color: #66fcf1;
   color: #66fcf1;
 }
-.btn-main:hover{
+
+.btn:hover {
   background-color: #66fcf1;
   color: black;
 }
 
-
 /* HERO */
-
-.hero{
+.hero {
   background-color: #1f2833;
 }
 
-.heropost-badges{
+.heropost-badges {
   position: absolute;
   display: block;
   top: 20px;
@@ -61,59 +64,100 @@ a:hover{
   font-size: 0.8rem;
 }
 
-.hero-post{
+.hero-post {
   position: relative;
 }
 
-.heropost-content{
+.heropost-content {
   position: absolute;
   bottom: 20px;
 }
 
-.heropost-content img{
+.heropost-content img {
   border: 2px solid #66fcf1;
 }
 
- .heropost-content p{
-   color: white;
- }
+.heropost-content p {
+  color: white;
+}
 
-.main-img{
+.main-img {
   filter: grayscale(30%) brightness(0.8);
 }
 
-.main-img:hover{
+.main-img:hover {
   filter: none;
 }
 
 /* MAIN BLOG */
-
-.blog-posts{
+.blog-posts {
   background-color: #0b0c10;
   color: #c5c6c7;
 }
 
-.blog-post{
+.blog-post {
   background-color: #1f2833;
 }
 
-.blog-post p{
+.blog-post p {
   font-size: 0.9rem;
 }
 
-.blog-post .col-sm-9{
+.blog-post .col-sm-9 {
   border-left: 3px solid #66fcf1;
 }
 
-.badge>a{
+.badge>a {
   padding: 0.3rem;
   background-color: #66fcf1;
   color: black;
 }
 
 /* ASIDE SECTION */
-
-
-.social-links{
+.social-link-main {
+  padding: 18px;
   border: 2px solid #66fcf1;
+}
+
+.social-link-main:hover {
+  background-color: #66fcf1;
+  color: black;
+}
+
+/* Author stuff */
+.author-content {
+  border-left: 2px solid #66fcf1;
+}
+
+.badges>a {
+  margin: 0.2rem;
+  display: inline-block;
+  padding: 0.8rem;
+  border: 2px solid #66fcf1;
+  color: #66fcf1;
+}
+
+.badges>a:hover {
+  margin: 0.2rem;
+  display: inline-block;
+  padding: 0.8rem;
+  background-color: #66fcf1;
+  color: black;
+}
+
+footer {
+  background-color: #1f2833;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.linkfooter a {
+  color: #c5c6c7;
+}
+
+.linkfooter a:hover {
+  text-decoration: none;
+  color: #66fcf1;
 }
